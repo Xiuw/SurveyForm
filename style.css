@@ -1,13 +1,31 @@
+@media screen and (min-width: 575px){
+
+
+	label{
+		text-align:right;
+	}
+
+	legend{
+		text-align:right;
+	}
+
+
+}
+
+
 
 
 body{
-	background:orange;
+	background:#dbe6f9;
 	width:100%;
+	font-family:arial, sans-serif;
 	
 }
 h1{
 	text-align: center;
 	margin:30px 0 0 0;
+	color:#274472;
+
 
 }
 
@@ -18,22 +36,22 @@ p{
 
 #pageCss{
 	background:white;
-	margin:40px 60px;
+	margin:40px 40px;
+	border-radius:30px;
 	padding:50px 20px;
 	
 }
 
-label{
-	text-align: right;
+.title-color{
+	color:#3e506d;
+	font-weight:bold;
 
 }	
 
-legend{
+/*legend{
 	font-weight:bold;
 	text-align:right;
-}
-
-
+}*/
 
 input{
 	width:50%;
@@ -42,4 +60,8 @@ input{
 
 #resetSubmit{
 	text-align: center;
+}
+
+.btn-primary{
+	background-color:#6583b2;
 }
