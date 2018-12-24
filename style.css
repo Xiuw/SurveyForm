@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 575px){
 
 
@@ -11,9 +12,6 @@
 
 
 }
-
-
-
 
 body{
 	background:#dbe6f9;
@@ -48,15 +46,16 @@ p{
 
 }	
 
-/*legend{
-	font-weight:bold;
-	text-align:right;
-}*/
-
 input{
 	width:50%;
+	min-width:15px;
+	position:static;
 }
 
+.form-check input{
+	width:5%;
+	position:relative;
+}
 
 #resetSubmit{
 	text-align: center;
@@ -65,3 +64,5 @@ input{
 .btn-primary{
 	background-color:#6583b2;
 }
+
+
