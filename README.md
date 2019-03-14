@@ -10,7 +10,7 @@
 - Textarea
 - Submit button
 - Validation for name email and number
-<img src="SurveyForm.jpg" width=100>
+<img src="SurveyForm.jpg" width=500>
 
 #### More detail about this project
 https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form
